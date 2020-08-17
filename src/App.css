@@ -65,6 +65,7 @@ body {
 }
 .show-nav {
   height: 0px;
+  transition: width 2s, height 4s;
 }
 
 @media screen and (min-width: 768px) {
@@ -84,5 +85,9 @@ body {
   .nav-links a {
     margin: 0 1rem;
     padding: 0.5rem 0;
+  }
+  .show-nav {
+    height: 0px;
+    transition: width 2s, height 4s;
   }
 }

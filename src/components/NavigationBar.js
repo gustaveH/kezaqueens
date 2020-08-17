@@ -4,7 +4,7 @@ import { GoThreeBars } from 'react-icons/go';
 
 export default class NavigationBar extends Component {
   state = {
-    isOpen: false,
+    isOpen: true,
   };
   handleToggle = () => {
     this.setState({ isOpen: !this.state.isOpen });
