@@ -4,7 +4,7 @@ import Admin from './pages/Admin';
 import Home from './pages/Home';
 import Podcast from './pages/Podcast';
 import Chat from './pages/Chat';
-import NavigationBar from './components/NavigationBar';
+import Navbar from './components/Navbar';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Switch } from 'react-router-dom';
@@ -12,7 +12,7 @@ import { Route, Switch } from 'react-router-dom';
 function App() {
   return (
     <>
-      <NavigationBar />
+      <Navbar />
       <Switch>
         <Route exact path='/' component={Home} />
         <Route exact path='/About' component={About} />
