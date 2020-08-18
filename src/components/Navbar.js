@@ -9,6 +9,12 @@ export default class Navbar extends Component {
   handleClick = () => {
     this.setState({ clicked: !this.state.clicked });
   };
+
+  closeNav = () => {
+    this.setState({
+      clicked: false,
+    });
+  };
   render() {
     return (
       <nav className='navbar'>
@@ -20,16 +26,24 @@ export default class Navbar extends Component {
         </div>
         <ul className={this.state.clicked ? 'nav-links active' : 'nav-links'}>
           <li>
-            <Link to='/About'>About</Link>
+            <Link to='/About' onClick={this.closeNav}>
+              About
+            </Link>
           </li>
           <li>
-            <Link to='/Podcast'>Podcast</Link>
+            <Link to='/Podcast' onClick={this.closeNav}>
+              Podcast
+            </Link>
           </li>
           <li>
-            <Link to='/Chat'>Chat</Link>
+            <Link to='/Chat' onClick={this.closeNav}>
+              Chat
+            </Link>
           </li>
           <li>
-            <Link to='/Admin'>Admin</Link>
+            <Link to='/Admin' onClick={this.closeNav}>
+              Admin
+            </Link>
           </li>
         </ul>
       </nav>
