@@ -1,11 +1,15 @@
 import React from 'react';
 import image from '../images/queen.jpg';
+import '../App.css';
 
 function LandingPage() {
   return (
     <div className='home-page'>
       <img src={image} alt='home' />
-      <h1>Welcome Keza Queens</h1>
+      <div className='welcome-message'>
+        <h1>welcome to keza queens</h1>
+      </div>
+      <div class='arrow-down'></div>
     </div>
   );
 }
