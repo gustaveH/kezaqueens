@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import '../App.css';
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 export default class Navbar extends Component {
   state = {
     clicked: false,
+    scroll: false,
   };
   handleClick = () => {
     this.setState({ clicked: !this.state.clicked });
@@ -15,10 +17,11 @@ export default class Navbar extends Component {
       clicked: false,
     });
   };
+
   render() {
     return (
-      <nav className='navbar'>
-        <Link to='/'>
+      <nav className='navbar active'>
+        <Link to='/' onClick={this.closeNav}>
           <h1 className='navbar-logo'>Keza Queens</h1>
         </Link>
         <div className='menu-icon' onClick={this.handleClick}>
