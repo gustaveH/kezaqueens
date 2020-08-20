@@ -115,7 +115,6 @@ img {
   height: 100vh;
   background-position: center;
   margin-top: -88px;
-  margin-bottom: ;
 }
 /* Landing page */
 .welcome-message {
@@ -135,7 +134,15 @@ img {
   position: relative;
   border-left: 40px solid transparent;
   border-right: 40px solid transparent;
-  border-top: 40px solid #f00;
+  border-top: 40px solid rgb(255, 72, 0);
   margin-left: 50%;
   margin-top: 28%;
+}
+@media screen and (max-width: 1020px) {
+  .welcome-message {
+    margin-top: -55vh;
+  }
+  .arrow-down {
+    display: none;
+  }
 }

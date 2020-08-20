@@ -9,7 +9,7 @@ function LandingPage() {
       <div className='welcome-message'>
         <h1>welcome to keza queens</h1>
       </div>
-      <div class='arrow-down'></div>
+      <div className='arrow-down'></div>
     </div>
   );
 }
