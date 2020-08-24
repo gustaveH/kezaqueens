@@ -18,7 +18,7 @@ body {
 /* global styling */
 /* Navbar */
 .navbar {
-  position: fixed;
+  position: sticky;
   top: 0;
   z-index: 2;
   background: transparent;
@@ -48,6 +48,7 @@ body {
   margin-left: 3px;
   font-size: 30px;
   display: none;
+  float: left;
 }
 .nav-links {
   display: grid;
