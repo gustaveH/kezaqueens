@@ -15,6 +15,7 @@ body {
   font-family: 'Playfair Display', serif;
   background-color: var(--secondaryColor);
 }
+/* global styling */
 /* Navbar */
 .navbar {
   position: fixed;
@@ -131,18 +132,54 @@ img {
 .arrow-down {
   width: 0;
   height: 0;
+  align-items: center;
+  background-color: transparent;
   position: relative;
-  border-left: 40px solid transparent;
-  border-right: 40px solid transparent;
-  border-top: 40px solid rgb(255, 72, 0);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 50px solid rgb(255, 72, 0);
   margin-left: 50%;
-  margin-top: 28%;
+  margin-top: 27.3%;
+  right: 50px;
+}
+.arrow-down:hover {
+  cursor: pointer;
 }
 @media screen and (max-width: 1020px) {
   .welcome-message {
-    margin-top: -55vh;
+    margin-top: -60vh;
   }
   .arrow-down {
     display: none;
   }
 }
+/* End of landing page */
+
+/* HomeScroll */
+.scroll-button {
+  position: relative;
+  background-color: transparent;
+  border: transparent;
+  top: -45px;
+  left: -25px;
+  text-transform: uppercase;
+}
+
+/* End HomeScroll */
+/* HeaderTitle */
+.header-title {
+  position: relative;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 2rem 0;
+}
+.header-title h4 {
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  text-decoration: underline overline;
+}
+.header-title h4:hover {
+  text-decoration: underline overline;
+}
+/* end HeaderTitle */
