@@ -18,15 +18,13 @@ body {
 /* global styling */
 /* Navbar */
 .navbar {
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 2;
+  left: 0;
+  width: 100%;
+  padding: 0.75rem 2rem;
   background: transparent;
-  height: 88px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.3rem;
+  z-index: 2;
 }
 .navbar.active {
   background: transparent;
@@ -68,11 +66,7 @@ li a {
 .menu-icon:hover {
   color: var(--primaryColor);
 }
-@media (max-width: 1020px) {
-  .navbar {
-    position: fixed;
-    top: 0;
-  }
+@media screen and (max-width: 1020px) {
   .nav-links {
     display: flex;
     flex-direction: column;
