@@ -104,7 +104,10 @@ li a {
   }
   .menu-icon {
     display: block;
-    position: relative;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-80%, 30%);
   }
 }
 /* End of navbar */
