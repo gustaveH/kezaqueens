@@ -20,7 +20,7 @@ export default class Navbar extends Component {
 
   render() {
     return (
-      <nav className='navbar active'>
+      <nav className='navbar'>
         <Link to='/' onClick={this.closeNav}>
           <h1 className='navbar-logo'>Keza Queens</h1>
         </Link>
