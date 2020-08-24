@@ -66,7 +66,7 @@ li a {
 .menu-icon:hover {
   color: var(--primaryColor);
 }
-@media screen and (max-width: 1020px) {
+@media (max-width: 1020px) {
   .navbar {
     position: fixed;
   }
@@ -104,7 +104,7 @@ li a {
   }
   .menu-icon {
     display: block;
-    /* position: relative; */
+    position: relative;
   }
 }
 /* End of navbar */
@@ -145,7 +145,7 @@ img {
 .arrow-down:hover {
   cursor: pointer;
 }
-@media screen and (max-width: 1020px) {
+@media (max-width: 1020px) {
   .welcome-message {
     margin-top: -60vh;
   }
