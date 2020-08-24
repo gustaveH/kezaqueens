@@ -1,9 +1,8 @@
 import React from 'react';
-import Welcome from '../components/Welcome';
 import image from '../images/queen.jpg';
 import '../App.css';
 import Banner from '../components/Banner';
-import HomeScroll from '../components/HomeScroll';
+import SocialMedia from './SocialMedia';
 
 function LandingPage() {
   return (
@@ -13,9 +12,8 @@ function LandingPage() {
         <div className='welcome-message'>
           <Banner title='Welcome to keza queens' />
         </div>
-        <HomeScroll scrollTitle='Enter' />
+        <SocialMedia />
       </section>
-      <Welcome />
     </>
   );
 }
