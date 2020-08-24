@@ -135,7 +135,7 @@ img {
 .welcome-message h1 {
   font-weight: 900;
 }
-.home-social:hover {
+/* .home-social:hover {
   color: #fd1d1d;
 }
 .instagram {
@@ -144,7 +144,7 @@ img {
   width: 60px;
   margin-top: 25%;
   margin-left: 1%;
-}
+} */
 
 @media (max-width: 1020px) {
   .welcome-message {
