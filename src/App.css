@@ -68,7 +68,7 @@ li a {
 }
 @media (max-width: 1020px) {
   .navbar {
-    position: fixed;
+    position: relative;
   }
   .nav-links {
     display: flex;
