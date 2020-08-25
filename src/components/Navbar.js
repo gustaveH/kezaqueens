@@ -5,10 +5,9 @@ import { FaBars, FaTimes, FaCrown } from 'react-icons/fa';
 
 export default function Navbar() {
   const [click, setClick] = useState(false);
-  const [close, setClose] = useState(false);
 
   const handleClick = () => setClick(!click);
-  const closeMenu = () => setClose(!click);
+  const closeMenu = () => setClick(false);
   return (
     <nav className='navbar'>
       <div className='navbar-container'>
