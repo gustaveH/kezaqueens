@@ -7,13 +7,13 @@ import SocialMedia from './SocialMedia';
 function LandingPage() {
   return (
     <>
-      <section className='home-page'>
+      <div className='home-page'>
         <img src={image} alt='home' />
         <div className='welcome-message'>
           <Banner title='Welcome to keza queens' />
         </div>
         <SocialMedia />
-      </section>
+      </div>
     </>
   );
 }

@@ -115,7 +115,6 @@ img {
   object-fit: cover;
   width: 100%;
   height: 100vh;
-
   margin-top: -72px;
 }
 /* Landing page */
@@ -141,13 +140,13 @@ img {
   margin-left: 1%;
 }
 
-@media (max-width: 1020px) {
+@media screen and (max-width: 1020px) {
   .welcome-message {
     margin-top: -60vh;
   }
   .instagram {
-    position: fixed;
-    margin-top: 72%;
+    position: absolute;
+    margin-top: 35%;
     margin-left: 1%;
   }
 }
