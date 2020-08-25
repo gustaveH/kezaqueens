@@ -47,6 +47,9 @@ body {
   display: flex;
   align-items: center;
 }
+.navbar-logo:hover {
+  color: var(--primaryColor);
+}
 
 .crown {
   margin-left: 0.8rem;
@@ -119,6 +122,9 @@ body {
     padding: 2rem;
     width: 100%;
     display: table;
+  }
+  .crown {
+    display: none;
   }
 
   .nav-links:hover {
