@@ -115,6 +115,7 @@ body {
 
   .nav-links {
     text-align: center;
+    letter-spacing: 0.1rem;
     padding: 2rem;
     width: 100%;
     display: table;
