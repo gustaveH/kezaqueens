@@ -115,7 +115,7 @@ img {
   object-fit: cover;
   width: 100%;
   height: 100vh;
-  background-position: center;
+
   margin-top: -72px;
 }
 /* Landing page */
@@ -130,7 +130,7 @@ img {
 .welcome-message h1 {
   font-weight: 900;
 }
-/* .home-social:hover {
+.home-social:hover {
   color: #fd1d1d;
 }
 .instagram {
@@ -139,7 +139,7 @@ img {
   width: 60px;
   margin-top: 25%;
   margin-left: 1%;
-} */
+}
 
 @media (max-width: 1020px) {
   .welcome-message {

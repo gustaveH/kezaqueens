@@ -2,7 +2,7 @@ import React from 'react';
 import image from '../images/queen.jpg';
 import '../App.css';
 import Banner from '../components/Banner';
-// import SocialMedia from './SocialMedia';
+import SocialMedia from './SocialMedia';
 
 function LandingPage() {
   return (
@@ -12,7 +12,7 @@ function LandingPage() {
         <div className='welcome-message'>
           <Banner title='Welcome to keza queens' />
         </div>
-        {/* <SocialMedia /> */}
+        <SocialMedia />
       </section>
     </>
   );
