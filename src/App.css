@@ -140,16 +140,17 @@ img {
   margin-left: 1%;
 }
 
-@media screen and (max-width: 1020px) {
+/* @media screen and (max-width: 1020px) {
   .welcome-message {
     margin-top: -60vh;
   }
+
   .instagram {
     position: absolute;
     margin-top: 35%;
     margin-left: 1%;
   }
-}
+} */
 /* End of landing page */
 /* HeaderTitle */
 .header-title {
