@@ -132,7 +132,6 @@ body {
   }
 
   .nav-links:hover {
-    background-color: black;
     color: var(--secondaryColor);
     text-decoration: none;
     border-radius: 0;
@@ -174,12 +173,26 @@ body {
 }
 .welcome-message h1 {
   font-size: 50px;
-  margin-top: 450px;
-
-  margin-bottom: 50;
+  margin-bottom: 330px;
 }
 .home-social {
   font-size: 50px;
-  margin-top: 380px;
-  margin-right: 1200px;
+  margin-bottom: -330px;
+  margin-right: 0px;
+}
+@media screen and (max-width: 960px) {
+  .message {
+    text-transform: uppercase;
+    font-size: xx-large;
+  }
+  .welcome-message h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 330px;
+  }
+  .home-social {
+    font-size: 50px;
+    margin-bottom: -280px;
+    margin-right: 0px;
+  }
 }
