@@ -56,6 +56,9 @@ body {
   margin-top: 0.2rem;
   font-size: 1.8rem;
 }
+.crown:hover {
+  color: goldenrod;
+}
 
 .nav-menu {
   display: grid;
@@ -84,6 +87,7 @@ body {
 .nav-links:hover {
   color: var(--primaryColor);
   transition: all 0.2s ease-out;
+  text-decoration: none;
 }
 
 .menu-icon {
@@ -138,6 +142,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    text-decoration: none;
     transform: translate(25%, 50%);
   }
 
@@ -150,4 +155,31 @@ body {
     font-size: 1.8rem;
     cursor: pointer;
   }
+}
+/* end navbar */
+/* Landing page */
+.hero-container {
+  background: url('images/queen.jpg') center center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 0 0 1000px rgba(238, 177, 63, 0.2);
+}
+.message {
+  text-transform: uppercase;
+  font-size: xx-large;
+}
+.welcome-message h1 {
+  font-size: 50px;
+  margin-top: 450px;
+
+  margin-bottom: 50;
+}
+.home-social {
+  font-size: 50px;
+  margin-top: 380px;
+  margin-right: 1200px;
 }

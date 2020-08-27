@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <nav className='navbar'>
       <div className='navbar-container'>
-        <Link to='/'>
+        <Link to='/' className='nav-links'>
           <h1 className='navbar-logo'>
             Keza Queens <FaCrown className='crown' />
           </h1>
