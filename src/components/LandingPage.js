@@ -10,7 +10,7 @@ function LandingPage() {
         <div className='message'>
           <Banner className='title' title='Welcome to Keza Queens' />
         </div>
-        <SocialMedia />
+        <SocialMedia className='social' />
       </div>
     </>
   );
