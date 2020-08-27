@@ -169,10 +169,10 @@ body {
 }
 .message {
   text-transform: uppercase;
+  margin-bottom: 300px;
 }
 .home-social {
-  position: absolute;
-  bottom: -70px;
+  margin-bottom: -350px;
   font-size: 50px;
 }
 @media screen and (max-width: 960px) {
@@ -181,8 +181,6 @@ body {
     text-align: center;
   }
   .home-social {
-    position: absolute;
-    bottom: -70px;
     font-size: 50px;
   }
 }
