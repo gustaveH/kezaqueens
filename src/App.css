@@ -181,6 +181,11 @@ body {
     text-transform: uppercase;
     text-align: center;
   }
+  .home-social {
+    position: absolute;
+    font-size: 50px;
+    bottom: -1.8em;
+  }
 }
 /* end of landing page */
 /* single profile */
