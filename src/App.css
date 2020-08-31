@@ -7,6 +7,7 @@
 :root {
   --primaryColor: #ff7c19;
   --secondaryColor: #ffffff;
+  --gold: #e0c56e;
   --black: #000000;
   --mainTransition: all 1s;
   --mainSpacing: 3px;
@@ -57,7 +58,7 @@ body {
   font-size: 1.8rem;
 }
 .crown:hover {
-  color: goldenrod;
+  color: var(--gold);
 }
 
 .nav-menu {
@@ -189,3 +190,24 @@ body {
 }
 /* end of landing page */
 /* single profile */
+.leftside {
+  width: 50%;
+  height: 100vh;
+  background: var(--secondaryColor);
+}
+.leftside:hover {
+  background: var(--gold);
+  opacity: 0.5;
+}
+.rightside {
+  width: 50%;
+  height: 100vh;
+  background: var(--secondaryColor);
+  position: absolute;
+  top: 80px;
+  right: 0;
+}
+.rightside:hover {
+  background: var(--gold);
+  opacity: 0.5;
+}
