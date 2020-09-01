@@ -232,18 +232,15 @@ body {
   text-align: center;
 }
 @media screen and (max-width: 900px) {
-  .leftside {
-    display: block;
-    text-align: center;
-    width: 100%;
-    background: var(--secondaryColor);
-  }
+  .leftside,
   .rightside {
     display: block;
     text-align: center;
     width: 100%;
+    margin: auto;
     background: var(--secondaryColor);
   }
+
   .profile {
     width: 100%;
     padding: 5%;
