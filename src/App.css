@@ -190,24 +190,66 @@ body {
 }
 /* end of landing page */
 /* single profile */
-.leftside {
-  width: 50%;
-  height: 100vh;
-  background: var(--secondaryColor);
+.profile {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
 }
-.leftside:hover {
-  background: var(--gold);
-  opacity: 0.5;
-}
+.leftside,
 .rightside {
+  text-align: center;
   width: 50%;
   height: 100vh;
   background: var(--secondaryColor);
-  position: absolute;
-  top: 80px;
-  right: 0;
 }
+.leftside:hover,
 .rightside:hover {
   background: var(--gold);
-  opacity: 0.5;
+}
+.image1,
+.image2 {
+  text-align: center;
+  max-width: 100%;
+  height: 650px;
+  width: 700px;
+  padding: 10px 8px;
+}
+.name {
+  text-align: center;
+  text-transform: capitalize;
+}
+.name:hover {
+  text-decoration: underline;
+}
+.bio {
+  text-align: center;
+  padding: 5px 20px;
+}
+.profileSocial {
+  text-align: center;
+}
+@media screen and (max-width: 900px) {
+  .leftside {
+    display: block;
+    text-align: center;
+    width: 100%;
+    background: var(--secondaryColor);
+  }
+  .rightside {
+    display: block;
+    text-align: center;
+    width: 100%;
+    background: var(--secondaryColor);
+  }
+  .profile {
+    width: 100%;
+    padding: 5%;
+  }
+  .bio {
+    text-align: center;
+    padding: 5px 72px;
+  }
 }

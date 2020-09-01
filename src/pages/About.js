@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import SingleProfile from '../components/SingleProfile';
+import Profile from '../components/Profile';
 
 export default class About extends Component {
   render() {
     return (
       <div>
-        <SingleProfile />
+        <Profile />
       </div>
     );
   }
