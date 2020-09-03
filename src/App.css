@@ -175,7 +175,7 @@ body {
   .home-social {
     position: absolute;
     font-size: 50px;
-    bottom: -1em;
+    bottom: -1.5em;
   }
 }
 /* end of landing page */
@@ -194,6 +194,7 @@ body {
   width: 50%;
   height: 100vh;
   background: var(--secondaryColor);
+  border-radius: 0.8rem;
 }
 .leftside:hover,
 .rightside:hover {
@@ -206,6 +207,7 @@ body {
   height: 650px;
   width: 700px;
   padding: 10px 8px;
+  border-radius: 1.5rem;
 }
 .name {
   text-align: center;
@@ -240,3 +242,42 @@ body {
     padding: 5px 72px;
   }
 }
+/* end of single profile */
+.podcast {
+  width: 70vw;
+  background-color: var(--primaryColor);
+  border-radius: 0.8rem;
+
+  margin: 1rem;
+}
+.podcast img {
+  width: 100%;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+  display: block;
+}
+.image-container {
+  position: relative;
+}
+.podcast-info {
+  padding: 1rem 0.5rem;
+}
+.podcast-info h3 {
+  text-transform: uppercase;
+  color: var(--black);
+}
+.podcast-info h4 {
+  text-transform: capitalize;
+  color: var(--black);
+  margin: 0.2rem 0 0.6rem 0;
+}
+.podcast-info h5 {
+  color: var(--black);
+}
+.podcast-info p {
+  color: var(--black);
+}
+.info-dropdown {
+  font-size: 1.2;
+}
+/* Podcasts */
