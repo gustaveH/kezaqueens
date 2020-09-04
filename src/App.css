@@ -243,6 +243,7 @@ body {
   }
 }
 /* end of single profile */
+/* podcast */
 .heading {
   position: relative;
   top: 1.5rem;
@@ -333,4 +334,8 @@ body {
     grid-template-columns: repeat(4, 1fr);
   }
 }
-/* Podcasts */
+/* end Podcasts */
+.admin {
+  width: 60vw;
+  margin: 0 auto;
+}
