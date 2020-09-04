@@ -245,19 +245,30 @@ body {
 /* end of single profile */
 .podcast {
   width: 70vw;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+.singleCard {
   background-color: var(--primaryColor);
   border-radius: 0.8rem;
-
-  margin: 1rem;
+  margin: 1rem 0;
 }
-.podcast img {
+.singleCard img {
   width: 100%;
   border-top-left-radius: 0.8rem;
   border-top-right-radius: 0.8rem;
-  display: block;
 }
 .image-container {
   position: relative;
+  align-items: center;
+}
+.date {
+  position: absolute;
+  display: block;
+  top: 3%;
+  right: 5%;
+  color: var(--secondaryColor);
+  font-size: 1.2rem;
 }
 .podcast-info {
   padding: 1rem 0.5rem;
@@ -269,15 +280,49 @@ body {
 .podcast-info h4 {
   text-transform: capitalize;
   color: var(--black);
-  margin: 0.2rem 0 0.6rem 0;
+  margin: 0.8rem 0 0.6rem 0;
 }
 .podcast-info h5 {
   color: var(--black);
+  margin: 1.2rem 0 0.6rem 0;
 }
 .podcast-info p {
   color: var(--black);
 }
 .info-dropdown {
-  font-size: 1.2;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.itunes,
+.spotify {
+  font-size: 3rem;
+  padding: 0 0.4rem;
+  cursor: pointer;
+  margin: 0rem 0.5rem;
+}
+.itunes:hover {
+  color: rgb(121, 3, 121);
+}
+.spotify:hover {
+  color: rgb(0, 143, 24);
+}
+@media screen and (min-width: 768px) {
+  .podcast {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.5rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .podcast {
+    width: 85vw;
+    grid-template-columns: repeat(3, 1fr);
+    /* same as writting 1fr 1fr 1fr */
+  }
+}
+@media screen and (min-width: 1140px) {
+  .podcast {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 /* Podcasts */
