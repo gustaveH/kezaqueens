@@ -11,6 +11,7 @@ export default class Podcast extends Component {
     const { podcasts } = this.state;
     return (
       <section className='podcast'>
+        <h6 className='heading'>Podcasts</h6>
         {podcasts.map((podcast) => {
           return <SingleCard key={podcast.id} podcast={podcast} />;
         })}

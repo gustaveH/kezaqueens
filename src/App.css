@@ -243,6 +243,13 @@ body {
   }
 }
 /* end of single profile */
+.heading {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  font-weight: bold;
+}
 .podcast {
   width: 70vw;
   margin: 0 auto;
@@ -259,17 +266,16 @@ body {
   border-top-right-radius: 0.8rem;
 }
 .image-container {
-  position: relative;
   align-items: center;
 }
-.date {
+/* .date {
   position: absolute;
   display: block;
-  top: 3%;
-  right: 5%;
+  top: 13%;
+  right: 18%;
   color: var(--secondaryColor);
   font-size: 1.2rem;
-}
+} */
 .podcast-info {
   padding: 1rem 0.5rem;
 }

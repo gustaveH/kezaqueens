@@ -17,9 +17,9 @@ export default class SingleCard extends Component {
       <article className='singleCard'>
         <div className='image-container'>
           <img src={img} alt=' ' />
-          <span className='date'>
+          {/* <span className='date'>
             <p>Date here</p>
-          </span>
+          </span> */}
         </div>
         <div className='podcast-info'>
           <h3>{title}</h3>
